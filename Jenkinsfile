@@ -31,5 +31,15 @@ pipeline{
 		'''
 	  }
 	}
+
+        stage('Four'){
+	   steps{
+	     sh '''
+		apt-get update
+		apt-get install jenkins -y
+		echo "Yes im forking"
+		'''
+	  }
+	}
      }
  }
