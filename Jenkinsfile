@@ -28,6 +28,7 @@ pipeline{
 	    steps{
 		sh '''
 		  echo "Rey this is the third one"
+		  echo "jumbare ajumbare"
 		'''
 	  }
 	}
