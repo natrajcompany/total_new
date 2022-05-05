@@ -22,5 +22,14 @@ pipeline{
 		'''
 	   }
 	}
+
+
+	stage('Third'){
+	    steps{
+		sh '''
+		  echo "Rey this is the third one"
+		'''
+	  }
+	}
      }
  }
