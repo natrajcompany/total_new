@@ -14,5 +14,13 @@ pipeline{
 		'''
 	   }
 	}
+
+	stage('Second'){
+	    steps{
+		sh '''
+		   echo "Hey this is second stage latest one"
+		'''
+	   }
+	}
      }
  }
