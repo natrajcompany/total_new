@@ -41,5 +41,13 @@ pipeline{
 		'''
 	  }
 	}
+	stage('Five'){
+	     steps{
+		sh '''
+		echi "stages five 
+		from nat_fork branch for testng  have added this stsep"
+		'''
+	   }
+	}
      }
  }
