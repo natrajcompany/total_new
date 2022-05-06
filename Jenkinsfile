@@ -33,14 +33,5 @@ pipeline{
 	  }
 	}
 
-	stage('Final'){
-	  steps{
-	     git init
-	     git config user.name "natrajsai8"
-	     git config user.email "natrajsai7@gmail.com"
-	     git status
-	     git checkout -b rc
-	   }
-	}
      }
  }
