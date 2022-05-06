@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-		images 'ubuntu:latest'
+		image 'ubuntu:latest'
 		args '-u root'
 	}
    }
@@ -21,6 +21,14 @@ pipeline{
 		   echo "Hey this is second stage latest one"
 		'''
 	   }
+	}
+
+	stage('Finale'){
+		steps {
+		  sh '''
+			echo "Rey in feature rey"
+		   '''
+	  }
 	}
      }
  }
