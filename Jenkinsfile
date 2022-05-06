@@ -23,6 +23,7 @@ pipeline{
 	   }
 	}
 
+<<<<<<< HEAD
 	stage('Finale'){
 		steps {
 		  sh '''
@@ -30,5 +31,17 @@ pipeline{
 		   '''
 	  }
 	}
+=======
+
+	stage('Third'){
+	    steps{
+		sh '''
+		  echo "Rey this is the third one"
+		  echo "jumbare ajumbare"
+		'''
+	  }
+	}
+
+>>>>>>> master
      }
  }
