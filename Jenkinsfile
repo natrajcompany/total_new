@@ -23,25 +23,6 @@ pipeline{
 	   }
 	}
 
-<<<<<<< HEAD
-	stage('Finale'){
-		steps {
-		  sh '''
-			echo "Rey in feature rey"
-		   '''
-	  }
-	}
-=======
 
-	stage('Third'){
-	    steps{
-		sh '''
-		  echo "Rey this is the third one"
-		  echo "jumbare ajumbare"
-		'''
-	  }
-	}
-
->>>>>>> master
      }
  }
