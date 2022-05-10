@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-		images 'ubuntu:latest'
+		image 'ubuntu:latest'
 		args '-u root'
 	}
    }
@@ -24,6 +24,7 @@ pipeline{
 	}
 
 
+<<<<<<< HEAD
 	stage('Third'){
 	    steps{
 		sh '''
@@ -41,5 +42,7 @@ pipeline{
 		'''
 	  }
 	}
+=======
+>>>>>>> 2f852e6c4f289d56e6b5a5f6d73b89ab893f2e7d
      }
  }
