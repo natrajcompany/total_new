@@ -11,6 +11,7 @@ pipeline{
            steps{
 	     sh '''
 		echo "hello-world"
+		echo "yes mama im doig it "
 		'''
 	   }
 	}
